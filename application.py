@@ -1,6 +1,4 @@
 from flask import Flask
-from flask import jsonify
-
 application = Flask(__name__)
 
 
@@ -9,7 +7,7 @@ def hello():
     """Return a friendly HTTP greeting."""
     print("I am inside hello world")
     
-    page = fr"""
+    page = """
     <html>
     <h1>Hello</h1>
     
